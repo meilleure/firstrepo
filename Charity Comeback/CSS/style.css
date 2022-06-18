@@ -1,0 +1,147 @@
+body{
+    font font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: url(../Image/char.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+body, html {
+overflow-y: hidden;
+    
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+  margin:0;
+  padding:10px;
+    
+}
+
+
+header{
+    background: rgba(0,0,0,0.4);
+    color: #ffffff;
+    font-size: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height:30px;
+    width: 100%;
+    margin bottom: 80px;
+    border-bottom: #ffffff 0.5px solid;
+    
+}
+
+header a{
+  color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    
+}
+
+header li{
+  float: left;
+   display: inline;
+   padding: 0 20px 0 20px;
+}
+header #branding{
+    
+    float:left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+header #branding h1{
+   margin: 0;
+}
+
+header nav{
+   float:right;
+    padding:0;
+    
+}
+
+#showcase{
+    
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+#showcase h1{
+   
+    margin-top: 100px;
+    font-size: 100px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+
+.title::after{
+	
+	content: '';
+	background: #e8491d;
+	width: 40px;
+	height: 3px;
+    margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	display: block;
+
+}
+
+.heading:after{
+	
+	content: '';
+	background: #ffffff;
+	width: 40px;
+	height: 3px;
+    margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	display: block;
+
+}
+
+
+#showcase .btn-primary{
+	
+    background-color:#e8491d;
+    color: #ffffff;
+    box-shadow: none;
+    margin-top: 30px;
+  	padding: 8px 25px;
+	border: none;
+	border-radius: 15px;
+    font-weight: bold;
+}	
+
+
+
+footer{
+    
+    padding-top : 20px;
+    margin-top: 80px;
+    color: #ffffff;
+    background-color:#e8491d;
+    text-align: center;
+    height: 25vh;
+
+}
+
+footer h1{
+    font-weight: bold;
+}
